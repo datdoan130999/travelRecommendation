@@ -1,0 +1,98 @@
+ /* CSS styles for the navigation bar */
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.5);
+     padding: 10px;
+     color: #fff;
+ }
+
+ .navbar a {
+     margin-right: 10px;
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .search-bar {
+     margin-left: auto;
+
+     margin-right: 10px;
+ }
+
+ .search-button,
+ .clear-button {
+     margin-right: 5px;
+ }
+
+ /* CSS styles for the about us page */
+ body {
+     background-image: url("https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSERdUFqj3hdYj0TqKxr30jNuz1oIUUn2xHGhjXaLsYSIk55RP3D-SnxwQmluGMtjEAUTg6GW86bEze2fEmpuogRfEnRLH1FI5Uj0XTsg");
+     background-size: cover;
+     background-position: center;
+     color: #fff;
+     font-family: Arial, sans-serif;
+ }
+
+ .container {
+     padding-top: 50px;
+     text-align: center;
+     display: flex;
+    justify-content: space-between;
+ }
+
+ .team-members {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ .team-member {
+     margin: 0 20px;
+ }
+
+
+
+
+ .content-left {
+    flex: 3;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 200px; /* Add margin to create spacing */
+
+}
+
+ .contact-form {
+     margin-top: 50px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+     display: block;
+     margin-bottom: 10px;
+     width: 100%;
+     padding: 10px;
+ }
+
+ .contact-form textarea {
+     height: 150px;
+ }
+
+ .contact-form button {
+     padding: 10px 20px;
+     background-color: #333;
+     color: #fff;
+     border: none;
+     cursor: pointer;
+ }
+
+ .searchCondition {
+     display: flex;
+     flex: 1;
+
+     justify-content: flex-end;
+ }
+
+ #result {
+     text-align: left;
+ }
